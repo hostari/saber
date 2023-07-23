@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "1INCH",
+    "name": "1inch - United States Dollar",
+    "assetType": "crypto"
+  },
+  {
+    "symbol": "A",
+    "name": "Agilent Technologies Inc.",
+    "assetType": "stock"
+  },
+  {
+    "symbol": "AA",
+    "name": "Alcoa Corporation",
+    "assetType": "stock"
+  },
+  {
+    "symbol": "AAA",
+    "name": "AXS First Priority CLO Bond ETF",
+    "assetType": "stock"
+  },
+  {
+    "symbol": "AAAU",
+    "name": "Goldman Sachs Physical Gold ETF Shares",
+    "assetType": "stock"
+  },
+  {
+    "symbol": "AAC",
+    "name": "Ares Acquisition Corporation",
+    "assetType": "stock"
+  }
+]
