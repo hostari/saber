@@ -1,0 +1,9 @@
+name: saber
+version: 0.1.0
+
+authors:
+  - jcads <rafaelcadorna@pm.me>
+
+crystal: 1.6.2
+
+license: MIT
