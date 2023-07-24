@@ -1,7 +1,7 @@
 class Saber::Link
   def self.create(
     creator : Int32,
-    assets : CreateAssetSize,
+    assets : Array(CreateAssetSize),
     title : String? = nil,
     expires_at : String? = nil,
     article_url : String? = nil,
@@ -9,17 +9,31 @@ class Saber::Link
     destination : String? = nil
   ) : Link
     io = IO::Memory.new
-    builder = ParamsBuilder.new(io)
-    assets = assets.to_n_tuple
+    assets = assets.map(&.to_n_tuple)
 
-    {% for x in %w(creator assets title expires_at article_url organization destination) %}
-      # TODO: convert key to camelcase
-      builder.add({{x}}, {{x.id}}) unless {{x.id}}.nil?
-    {% end %}
+    JSON.build(io) do |json|
+      json.object do
+        {% for x in %w(creator assets title expires_at article_url organization destination) %}
+          if {{x.id}}.nil?
+            # do nothing
+          elsif {{x.id}}.is_a?(Array)
+            json.field {{x}}.camelcase(lower: true) do
+              json.array do
+                {{x.id}}.each do |el|
+                  json.raw(el.to_json)
+                end
+              end
+            end
+          else
+            json.field {{x}}.camelcase(lower: true), {{x.id}}
+          end
+        {% end %}
+      end
+    end
 
-    response = Saber.client.post("/api/links/link/", form: io.to_s)
+    response = Saber.client.post("/api/links/link/", body: io.to_s)
 
-    if response.status_code == 200
+    if response.status_code == 201
       Link.from_json(response.body)
     else
       raise Error.from_json(response.body, "error")

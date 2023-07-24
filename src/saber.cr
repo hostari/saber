@@ -18,20 +18,14 @@ class Saber
   end
 
   def self.client : HTTP::Client
-    return @@client.not_nil! unless @@client.nil?
+    client = HTTP::Client.new(BASE_URL)
 
-    self.reset_client
-
-    @@client.not_nil!
-  end
-
-  def self.reset_client
-    @@client = HTTP::Client.new(BASE_URL)
-
-    @@client.not_nil!.before_request do |request|
+    client.not_nil!.before_request do |request|
       request.headers["Authorization"] = "Token #{@@api_key}"
       request.headers["Content-Type"] = "application/json"
     end
+
+    client
   end
 end
 
