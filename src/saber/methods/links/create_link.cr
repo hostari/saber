@@ -1,7 +1,7 @@
 class Saber::Link
   def self.create(
     creator : Int32,
-    assets : CreateAssetSize,
+    assets : Array(CreateAssetSize),
     title : String? = nil,
     expires_at : String? = nil,
     article_url : String? = nil,
@@ -10,7 +10,7 @@ class Saber::Link
   ) : Link
     io = IO::Memory.new
     builder = ParamsBuilder.new(io)
-    assets = assets.to_n_tuple
+    assets = assets.map(&.to_n_tuple)
 
     {% for x in %w(creator assets title expires_at article_url organization destination) %}
       # TODO: convert key to camelcase

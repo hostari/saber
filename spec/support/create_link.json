@@ -1,9 +1,9 @@
 {
     "id": 70,
     "linkType": "TRADE",
-    "articleUrl": "http://hostari.com",
-    "title": "Test article",
-    "createdAt": "2023-07-19T12:37:28.142601Z",
+    "articleUrl": "",
+    "title": "",
+    "createdAt": "2023-07-24T12:27:41.707932Z",
     "expired": false,
     "sabertradeShortUrl": "4f7cb",
     "creator": {
@@ -14,20 +14,54 @@
     "approvalStatus": "APPROVED",
     "assets": [
         {
-            "id": 248,
+            "id": 353,
             "asset": {
                 "symbol": "META",
                 "name": "Meta Platforms, Inc. Class A Common Stock",
                 "assetType": "stock"
             },
             "assetType": "stock",
-            "size": "0.1000",
+            "size": "0.0100",
             "expiry": null,
             "callPut": null,
             "strikePrice": null,
             "ticker": "",
             "currentPrice": {
-                "close": "313.879000"
+                "close": "295.745000"
+            }
+        },
+        {
+            "id": 354,
+            "asset": {
+                "symbol": "ABNB",
+                "name": "Airbnb, Inc. Class A Common Stock",
+                "assetType": "stock"
+            },
+            "assetType": "stock",
+            "size": "0.0100",
+            "expiry": null,
+            "callPut": null,
+            "strikePrice": null,
+            "ticker": "",
+            "currentPrice": {
+                "close": "149.385000"
+            }
+        },
+        {
+            "id": 355,
+            "asset": {
+                "symbol": "A",
+                "name": "Agilent Technologies Inc.",
+                "assetType": "stock"
+            },
+            "assetType": "stock",
+            "size": "0.0100",
+            "expiry": null,
+            "callPut": null,
+            "strikePrice": null,
+            "ticker": "",
+            "currentPrice": {
+                "close": "127.200000"
             }
         }
     ],
@@ -38,16 +72,28 @@
     "destination": "INFORMATIONAL_NEWS_ARTICLE",
     "embed": {
         "allAssets": {
-            "button": "<a href=\"https://www.saber-trade.com/link/4f7cb\" style=\"display:flex;align-items:center;justify-content:center; font-size:16px;padding:12px 24px;text-transform:none;display:inline-flex; text-decoration:none;color:white;background-color:#0a40bb; border-radius:28px;\" target=\"_blank\" title=\"Trade with Sabertrade\">Trade<img src=\"https://admin.saber-trade.com/tracking-pixel/ll0vzVCULdrqmOSBZyfU-i_3r4v7sz0DuHf1tzA24-yKjFc41ClnhkAn51LZ3s51PVBNJiQgh5GInURavQcwRXvEHiyRqfiSBKPszw7dMpOCfbSW1bHIg7Yk6g-ZH6d7exUt0403RcPTwmmOcefS3sWi0stDeR-ZGkqE7wisHeYurxS2nC9QoWaob_vZTdI3yQsSDvBoXWdtwg==/\"></a>",
-            "iframe": "<iframe src=\"https://www.saber-trade.com/link/preview/4f7cb\" style=\"width:100%;height:472px;border:none;\"></iframe>",
-            "link": "<a href=\"https://www.saber-trade.com/link/4f7cb\">https://www.saber-trade.com/link/4f7cb</a>",
-            "url": "https://www.saber-trade.com/link/4f7cb"
+            "button": "<a href=\"https://www.saber-trade.com/link/zaf32\" style=\"display:flex;align-items:center;justify-content:center; font-size:16px;padding:12px 24px;text-transform:none;display:inline-flex; text-decoration:none;color:white;background-color:#0a40bb; border-radius:28px;\" target=\"_blank\" title=\"Trade with Sabertrade\">Trade<img src=\"https://admin.saber-trade.com/tracking-pixel/miNyBH3yRnG1O9eO6UtnO2_IOdkGNISuq0o9MDqPu7575Kg50_ELARs5NTBGETnHBbp2atA53c3z7GTr6tny9XlFNGpoMxpxmSnQBHATgcqQzyD4CTQ_DKnw_YBQvAWle3wcXnPYZCev0Bc3ZIeUjdR9I_QlS7b8Fl09yADsTgl_PtEik4d7Sg==/\"></a>",
+            "iframe": "<iframe src=\"https://www.saber-trade.com/link/preview/zaf32\" style=\"width:100%;height:472px;border:none;\"></iframe>",
+            "link": "<a href=\"https://www.saber-trade.com/link/zaf32\">https://www.saber-trade.com/link/zaf32</a>",
+            "url": "https://www.saber-trade.com/link/zaf32"
         },
         "META": {
-            "button": "<a href=\"https://www.saber-trade.com/link/4f7cb/META/248\" style=\"display:flex;align-items:center;justify-content:center; font-size:16px;padding:12px 24px;text-transform:none;display:inline-flex; text-decoration:none;color:white;background-color:#0a40bb; border-radius:28px;\" target=\"_blank\" title=\"Trade with Sabertrade\">Trade<img src=\"https://admin.saber-trade.com/tracking-pixel/ZoN6YHXy9aEc7_2L9Z-Hd9u-LecxHtDMBL11PlTotwi2lVAUJ6C8LcinCe5tnWnh1GAfcjlQj-cB79QRn6iRMH88OOGz-VGty4d0eqmQxW9Q9fNN1DmVQXSloGoYJLytLFTijaRIWbDhveETo7Oegoybs4rWPq5Kw9qY0l8_1D8-Hf31H-1Sgm7um0Wj44MbdlBEbngccTcbmA==/\"></a>",
-            "iframe": "<iframe src=\"https://www.saber-trade.com/link/preview/4f7cb/META/248\" style=\"width:100%;height:472px;border:none;\"></iframe>",
-            "link": "<a href=\"https://www.saber-trade.com/link/4f7cb/META/248\">https://www.saber-trade.com/link/4f7cb/META/248</a>",
-            "url": "https://www.saber-trade.com/link/4f7cb/META/248"
+            "button": "<a href=\"https://www.saber-trade.com/link/zaf32/META/353\" style=\"display:flex;align-items:center;justify-content:center; font-size:16px;padding:12px 24px;text-transform:none;display:inline-flex; text-decoration:none;color:white;background-color:#0a40bb; border-radius:28px;\" target=\"_blank\" title=\"Trade with Sabertrade\">Trade<img src=\"https://admin.saber-trade.com/tracking-pixel/9ax1iLSqL7X14AGZCDClJ88nM92MuhhcXlRL7YNYPelfUaoZZD3qrbEYtOKv_5ny9ZsiE1vGHQU_dt-zwCxPEKa0eTl58hFxUzlkRWPSz9GnWycdvJynfZVlHySLvA1ayZ4p3pM_R0urAxvpltorke7h6j2eoh8PJH3EX6thsNArgIivEW08kg==/\"></a>",
+            "iframe": "<iframe src=\"https://www.saber-trade.com/link/preview/zaf32/META/353\" style=\"width:100%;height:472px;border:none;\"></iframe>",
+            "link": "<a href=\"https://www.saber-trade.com/link/zaf32/META/353\">https://www.saber-trade.com/link/zaf32/META/353</a>",
+            "url": "https://www.saber-trade.com/link/zaf32/META/353"
+        },
+        "ABNB": {
+            "button": "<a href=\"https://www.saber-trade.com/link/zaf32/ABNB/354\" style=\"display:flex;align-items:center;justify-content:center; font-size:16px;padding:12px 24px;text-transform:none;display:inline-flex; text-decoration:none;color:white;background-color:#0a40bb; border-radius:28px;\" target=\"_blank\" title=\"Trade with Sabertrade\">Trade<img src=\"https://admin.saber-trade.com/tracking-pixel/iZKYsJCv44bp5_Z93JDVAokE_A6y3pfHy68ZUsvOLqjn4hFJ9SVl4961ljAgx0X-RIsnqGtOqWfjU74OWRyzQxjaecweIxIyBgByI7g3QyImC_E4FZRnGsNCnaFgTdjbts5vpEl9iK3hht_XKXH91VKhcYmuHPYdlBOSbAxOhwlfmnpAOpqVyw==/\"></a>",
+            "iframe": "<iframe src=\"https://www.saber-trade.com/link/preview/zaf32/ABNB/354\" style=\"width:100%;height:472px;border:none;\"></iframe>",
+            "link": "<a href=\"https://www.saber-trade.com/link/zaf32/ABNB/354\">https://www.saber-trade.com/link/zaf32/ABNB/354</a>",
+            "url": "https://www.saber-trade.com/link/zaf32/ABNB/354"
+        },
+        "A": {
+            "button": "<a href=\"https://www.saber-trade.com/link/zaf32/A/355\" style=\"display:flex;align-items:center;justify-content:center; font-size:16px;padding:12px 24px;text-transform:none;display:inline-flex; text-decoration:none;color:white;background-color:#0a40bb; border-radius:28px;\" target=\"_blank\" title=\"Trade with Sabertrade\">Trade<img src=\"https://admin.saber-trade.com/tracking-pixel/aDGYERvjwF-p27_jg01IWA30BAO52140HBoXDM6woMzmFjWjfX0ueii6TNW4xlWtVqFXFeYRkCh3n5M7Ldci0TIyZwsuXx6hAwSEu67IvWYt5zoou-zCNXk-vu55IaSiS7We4QgHVk8wxoZY4Z4aQkfccpPFlJGByZBOfJjPpRwS443ZuYl6PA==/\"></a>",
+            "iframe": "<iframe src=\"https://www.saber-trade.com/link/preview/zaf32/A/355\" style=\"width:100%;height:472px;border:none;\"></iframe>",
+            "link": "<a href=\"https://www.saber-trade.com/link/zaf32/A/355\">https://www.saber-trade.com/link/zaf32/A/355</a>",
+            "url": "https://www.saber-trade.com/link/zaf32/A/355"
         }
     }
 }
