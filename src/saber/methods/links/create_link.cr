@@ -33,7 +33,7 @@ class Saber::Link
 
     response = Saber.client.post("/api/links/link/", body: io.to_s)
 
-    if response.status_code == 200
+    if response.status_code == 201
       Link.from_json(response.body)
     else
       raise Error.from_json(response.body, "error")
