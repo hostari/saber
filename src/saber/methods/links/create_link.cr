@@ -36,7 +36,7 @@ class Saber::Link
     if response.status_code == 201
       Link.from_json(response.body)
     else
-      raise Error.from_json(response.body, "error")
+      raise Exception.new(response.body) 
     end
   end
 end

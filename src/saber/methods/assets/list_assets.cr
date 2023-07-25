@@ -5,7 +5,7 @@ class Saber::Asset
     if response.status_code == 200
       Array(Asset).from_json(response.body)
     else
-      raise Error.from_json(response.body, "error")
+      raise Exception.new(response.body)
     end
   end
 end
